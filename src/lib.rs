@@ -1,9 +1,8 @@
 mod routes;
 
-use std::net::SocketAddr;
-
 use eyre::Result;
 use routes::create_router;
+use std::net::SocketAddr;
 
 pub struct App {
     address: [u8; 4],
